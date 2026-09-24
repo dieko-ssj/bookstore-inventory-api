@@ -2,7 +2,7 @@
  * Punto de entrada de la aplicación React.
  *
  * ──────────────────────────────────────────────────────────
- * PARA LA ENTREVISTA — Providers:
+ *  Providers:
  *   React usa el patrón "Provider" para compartir estado/config
  *   entre todos los componentes sin pasar props manualmente.
  *

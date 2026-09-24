@@ -2,9 +2,6 @@
 Django settings for the Nextep Bookstore Inventory API.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA: Este archivo es el "cerebro" de configuración de Django.
-Aquí se registran las apps instaladas, middleware, base de datos, etc.
-Puntos clave a defender:
   - Usamos SQLite para simplificar (no necesita instalar PostgreSQL).
   - django-cors-headers permite que el frontend React se comunique
     con el backend sin errores de "CORS blocked".

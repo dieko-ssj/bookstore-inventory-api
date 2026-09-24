@@ -2,7 +2,6 @@
 Modelos de datos para el inventario de la librería.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA — Puntos clave del modelo Book:
   1. Usamos DecimalField para 'cost_usd' y 'price_local' en vez de
      FloatField porque Decimal evita errores de redondeo con dinero
      (ej: 0.1 + 0.2 = 0.30000000000000004 con float).

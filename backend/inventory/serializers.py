@@ -2,11 +2,8 @@
 Serializadores para la app de inventario.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA — ¿Qué es un Serializer?
-  Es el intermediario entre los datos JSON que envía el frontend
-  y los objetos Python/Django. Hace dos cosas:
   1. SERIALIZACIÓN: Convierte un objeto Book de la DB → JSON para la respuesta.
-  2. DESERIALIZACIÓN: Convierte el JSON del request → valida → crea/actualiza el Book.
+  2. DESERIALIZACIÓN: Convierte el JSON del request/valida/crea/actualiza el Book.
   Es similar al concepto de "DTO" (Data Transfer Object) en otros frameworks.
 
   Usamos ModelSerializer porque genera automáticamente los campos

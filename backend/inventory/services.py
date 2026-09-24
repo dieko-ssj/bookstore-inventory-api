@@ -2,8 +2,6 @@
 Servicio para consultar tasas de cambio desde una API externa.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA — Principio de Responsabilidad Única (SRP):
-  Este servicio está separado de las vistas porque:
   1. La vista (views.py) solo se encarga de recibir/responder HTTP.
   2. Este servicio se encarga de la LÓGICA DE NEGOCIO de divisas.
   3. Si mañana cambian la API externa, solo modificas ESTE archivo.

@@ -2,7 +2,6 @@
 Vistas (Views) de la API de inventario.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA — ¿Por qué usamos ModelViewSet?
   ModelViewSet nos da automáticamente los 5 métodos del CRUD:
     - list()    → GET    /api/books/         (listar todos)
     - create()  → POST   /api/books/         (crear uno)

@@ -2,7 +2,6 @@
 URLs de la app de inventario.
 
 ────────────────────────────────────────────────────────────
-PARA LA ENTREVISTA — ¿Qué es un Router?
   El Router de DRF genera automáticamente todas las URLs del
   ViewSet. Una sola línea `router.register("books", BookViewSet)`
   genera:
